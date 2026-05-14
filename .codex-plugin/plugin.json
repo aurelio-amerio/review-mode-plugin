@@ -1,0 +1,20 @@
+{
+  "name": "review-mode",
+  "displayName": "Review Mode",
+  "version": "0.1.0",
+  "description": "Review Mode — threaded annotations, revision tracking, and AI agent tools for Markdown files.",
+  "shortDescription": "Threaded annotations and revision tracking for Markdown files.",
+  "longDescription": "Review Mode adds threaded code review-style annotations, revision tracking, and AI agent tools to your Markdown workflow. Leave inline comments, track changes across revisions, and collaborate with AI agents on document review.",
+  "author": {
+    "name": "aurelio-amerio"
+  },
+  "developerName": "aurelio-amerio",
+  "repository": "https://github.com/aurelio-amerio/review-mode-plugin",
+  "license": "MIT",
+  "keywords": ["review", "annotations", "mcp", "markdown", "collaboration"],
+  "category": "Productivity",
+  "logo": "./icon.png",
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "mcpServers": "./.mcp.json"
+}

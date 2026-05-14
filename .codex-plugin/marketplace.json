@@ -1,0 +1,20 @@
+{
+  "name": "review-mode-plugin",
+  "interface": {
+    "displayName": "Review Mode Plugin"
+  },
+  "plugins": [
+    {
+      "name": "review-mode",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aurelio-amerio/review-mode-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "review-mode",
   "description": "Review Mode — threaded annotations, revision tracking, and AI agent tools for Markdown files.",
-  "version": "0.0.18",
+  "version": "0.1.0",
   "author": {
     "name": "aurelio-amerio"
   },
