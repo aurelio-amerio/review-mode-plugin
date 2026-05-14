@@ -1,0 +1,7 @@
+{
+  "review-mode": {
+    "command": "review-mode-mcp",
+    "args": [],
+    "type": "stdio"
+  }
+}
