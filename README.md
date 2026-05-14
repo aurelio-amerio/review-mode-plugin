@@ -2,7 +2,7 @@
 
 Plugin for the [Review Mode](https://marketplace.visualstudio.com/items?itemName=aurelio-amerio.review-mode) VS Code extension. Adds AI agent skills and commands for annotation-based document review workflows.
 
-Works with **Claude Code**, **Cursor**, and **Codex**.
+Works with **Claude Code**, **GitHub Copilot**, **Cursor**, and **Codex**.
 
 ## Prerequisites
 
@@ -20,6 +20,14 @@ Run these commands inside Claude Code:
 ```
 
 Skills are invoked as `/review-mode:review-mode`. Commands as `/review-mode:review-mode` and `/review-mode:update-plan`.
+
+### GitHub Copilot
+
+Open the Command Palette and run **Chat: Install Plugin From Source**, then enter:
+
+```
+https://github.com/aurelio-amerio/review-mode-plugin
+```
 
 ### Cursor
 
