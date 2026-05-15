@@ -1,7 +1,7 @@
 {
   "name": "review-mode",
   "displayName": "Review Mode",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Review Mode — threaded annotations, revision tracking, and AI agent tools for Markdown files.",
   "shortDescription": "Threaded annotations and revision tracking for Markdown files.",
   "longDescription": "Review Mode adds threaded code review-style annotations, revision tracking, and AI agent tools to your Markdown workflow. Leave inline comments, track changes across revisions, and collaborate with AI agents on document review.",

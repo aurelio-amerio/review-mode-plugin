@@ -74,7 +74,18 @@ update_annotation(
 )
 ```
 
-### Step 6 — Report
+### Step 6 — Re-open in Review Mode
+
+```python
+open_review(
+  file_path="<relative-path-to-file>",
+  workspace="/path/to/project/root"
+)
+```
+
+The extension will detect the file change and automatically create a new revision with migrated annotations.
+
+### Step 7 — Report
 
 Print a status message:
 > ✅ Review implemented for `<file>`. N comments resolved, M need your input.
