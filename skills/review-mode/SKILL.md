@@ -25,6 +25,31 @@ The skill is **agent-agnostic** — it works regardless of how the document was 
 
 **Command trigger:** Treat `/review-mode` as an explicit user command to open the relevant Markdown plan/document in Review Mode via MCP (`open_review`), then confirm in chat that the file was created (if applicable) and opened in Review Mode.
 
+### MCP Server Installation & Troubleshooting
+
+If the plugin is installed correctly, the MCP server configuration is already registered (via `.mcp.json`). However, the `review-mode-mcp` executable itself must be installed on the system. If MCP tool calls fail with "tool not found", "server failed to start", or similar connection errors, the executable is likely missing.
+
+**Diagnosis:** Run in the shell:
+```bash
+review-mode-mcp --version
+```
+If the command is not found, the MCP server is not installed.
+
+**Installation:** The MCP server is distributed as a Python package and installed via [`uv`](https://docs.astral.sh/uv/):
+
+1. Ensure `uv` is installed. If not, install it following the [uv installation guide](https://docs.astral.sh/uv/getting-started/installation/).
+2. Install the MCP server:
+   ```bash
+   uv tool install review-mode-mcp
+   ```
+3. Verify the installation:
+   ```bash
+   review-mode-mcp --version
+   ```
+4. After installation, restart or reconnect the MCP client so it can pick up the new executable.
+
+> **Important:** If MCP tools fail unexpectedly, always check `review-mode-mcp --version` first before assuming a configuration issue.
+
 ### Tool Overview
 
 The `review-mode-mcp` server provides the following tools:

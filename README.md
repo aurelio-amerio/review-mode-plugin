@@ -6,7 +6,13 @@ Works with **Claude Code**, **GitHub Copilot**, **Cursor**, and **Codex**.
 
 ## Prerequisites
 
-Install the [Review Mode](https://marketplace.visualstudio.com/items?itemName=aurelio-amerio.review-mode) VS Code extension. It automatically sets up the required MCP server.
+1. Install the [Review Mode](https://marketplace.visualstudio.com/items?itemName=aurelio-amerio.review-mode) VS Code extension.
+2. Install [`uv`](https://docs.astral.sh/uv/getting-started/installation/) if you don't have it already.
+3. Install the MCP server:
+   ```bash
+   uv tool install review-mode-mcp
+   ```
+   Verify with `review-mode-mcp --version`.
 
 ## Installation
 
