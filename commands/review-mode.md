@@ -36,7 +36,12 @@ open_review(
 
 ### Step 3 — Confirm
 
-Print a brief status message:
-> 📋 The file has been opened in Review Mode. Add your comments, then type `/update` when you're ready for me to act on them.
+Print a brief status message.
+
+Use this if the file is an implementation plan:
+> 📋 The file has been opened in Review Mode. Add your comments, then type `/update-plan` when you're ready for me to act on them.
+
+Use this if the file is a generic file:
+> 📋 The file has been opened in Review Mode. Add your comments, then type `/implement-review` when you're ready for me to act on them.
 
 Do **NOT** print the file content in chat. The user will read it in the Review Mode panel.
